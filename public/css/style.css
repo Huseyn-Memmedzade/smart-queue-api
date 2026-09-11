@@ -1,0 +1,15 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: #f4f7f6; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: 0 auto; }
+.card { background: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+h1, h2 { color: #333; margin-top: 0; }
+input { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+.btn { background: #28a745; color: #fff; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%; }
+.btn-next { background: #007bff; font-size: 16px; padding: 12px; }
+.btn-secondary { background: #6c757d; }
+.btn-danger { background: #dc3545; width: auto; padding: 5px 10px; }
+.serving-box { margin-top: 15px; font-size: 18px; font-weight: bold; color: #007bff; }
+ul { list-style: none; padding: 0; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #eee; }
+.search-box { display: flex; gap: 10px; }
+.search-box input { margin-bottom: 0; }
